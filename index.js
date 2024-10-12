@@ -115,7 +115,7 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
     tagColor: PropTypes.string,
     tagTextColor: PropTypes.string,
     tagContainerStyle: PropTypes.object,
-    tagTextStyle: Text.propTypes.style,
+    tagTextStyle: PropTypes.any,
     inputDefaultWidth: PropTypes.number,
     inputColor: PropTypes.string,
     inputProps: PropTypes.shape(TextInput.propTypes),
